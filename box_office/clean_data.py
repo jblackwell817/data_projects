@@ -6,6 +6,6 @@ def clean_data(path_to_csv,column_names,index):
     #reduce this dataframe to only the chosen columns
     reduced_data = csv_data[column_names]
     #only use entries which don't contain null values
-    complete_data = reduced_data.dropna()
+    #complete_data = reduced_data.dropna()
         
-    return complete_data;
+    return reduced_data;
